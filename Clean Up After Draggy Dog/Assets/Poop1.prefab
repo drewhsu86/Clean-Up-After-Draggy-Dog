@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  shrinkAmt: 10
+  shrinkAmt: 20
   growAmt: 0
   hp: 100
   finishThreshold: 35
