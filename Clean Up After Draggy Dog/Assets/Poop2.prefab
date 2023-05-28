@@ -161,7 +161,7 @@ MonoBehaviour:
   shrinkAmt: 25
   growAmt: 0
   hp: 200
-  finishThreshold: 50
+  finishThreshold: 55
   isShrinking: 0
 --- !u!65 &6570193635132511408
 BoxCollider:

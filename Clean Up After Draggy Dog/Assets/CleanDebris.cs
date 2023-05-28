@@ -38,7 +38,7 @@ public class CleanDebris : MonoBehaviour
     }
 
     private void FinishDebris() {
-        player.CollectDebris(hp);
+        player.CollectDebris(hp, true);
         Destroy(gameObject);
     }
     
