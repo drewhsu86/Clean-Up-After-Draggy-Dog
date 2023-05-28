@@ -18,7 +18,7 @@ public class EndController : MonoBehaviour
         currentScore = PlayerPrefs.GetFloat("CurrentScore");
         if (PlayerPrefs.HasKey("HighScore")) {
             highScore = PlayerPrefs.GetFloat("HighScore");
-            if (currentScore > highScore) {
+            if (currentScore < highScore) {
                 highScore = currentScore;
                 PlayerPrefs.SetFloat("HighScore", highScore);
             } 
@@ -27,6 +27,12 @@ public class EndController : MonoBehaviour
             PlayerPrefs.SetFloat("HighScore", highScore);
         }
         scoreDisplay.text = $"Your Score: {secToString(currentScore)} \n High Score: {secToString(highScore)}";
+    }
+
+    void Update() {
+        if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Cancel")) {
+            BackToMenu();
+        }
     }
 
     private string secToString(float sec) {
