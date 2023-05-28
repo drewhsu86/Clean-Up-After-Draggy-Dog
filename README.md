@@ -1,6 +1,7 @@
 # Clean-Up-After-Draggy-Dog
 This is a short Game for the [GameDev.TV Game Jam](https://itch.io/jam/gamedevtv-jam-2023)
 
+[Link to game hosted on itch.io](https://drewhsu86.itch.io/draggy-dog-clean-up)
 
 ## Credits
 Art and Programming by me
