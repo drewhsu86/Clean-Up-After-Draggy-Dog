@@ -3,6 +3,8 @@ This is a short Game for the [GameDev.TV Game Jam](https://itch.io/jam/gamedevtv
 
 [Link to game hosted on itch.io](https://drewhsu86.itch.io/draggy-dog-clean-up)
 
+Note: I deleted the Library folder before uploading but Unity should repopulate that
+
 ## Credits
 Art and Programming by me
 
