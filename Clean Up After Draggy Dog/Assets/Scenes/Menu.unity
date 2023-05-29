@@ -303,7 +303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &171865977
 RectTransform:
   m_ObjectHideFlags: 0
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_text: "You are an advanced AI controlling the new state of the art cleaning robot,
     Roombot. \nYour owner, Rick, has left the house but his dog, Draggy, has made
     a mess! Clean it all up as fast as possible!\n\nControls: ASDF to move, Mouse
-    to Look"
+    to Look\n(Joystick controls also enabled)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1669,7 +1669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &854832534
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2337,7 +2337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1280664572
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2872,7 +2872,7 @@ MonoBehaviour:
   - {fileID: 171865976}
   - {fileID: 1280664571}
   selectedButton: 0
-  deadzone: 0.01
+  deadzone: 0.0001
   canMoveButtonDelay: 0.5
 --- !u!4 &1558910688
 Transform:
@@ -2905,7 +2905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1566707981
 RectTransform:
   m_ObjectHideFlags: 0

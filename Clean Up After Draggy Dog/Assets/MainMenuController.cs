@@ -17,7 +17,6 @@ public class MainMenuController : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         ClosePanels();
-        HighlightButton();
     }
 
     void Update() {    
@@ -52,7 +51,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     private void DetectButtonSelect() {
-        if (canMoveButton) {
+        if (canMoveButton && Input.GetAxis("Vertical") != 0) {
             if (Input.GetAxis("Vertical") > deadzone) {
                 IterateIndex(false);
             } else if (Input.GetAxis("Vertical") < -deadzone) {
